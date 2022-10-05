@@ -1,0 +1,520 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+}
+
+:root {
+  --text-dark-blue: #071e34;
+  --text-light-blue: #03f7db;
+  --text-black: #111111;
+  --text-white: #ffffff;
+  --bg-green: #3fd858;
+}
+
+@font-face {
+  font-family: "Gosha";
+  src: url("../fonts/GoshaSansRegular.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gosha Bold";
+  src: url("../fonts/GoshaSansBold.woff");
+  font-weight: bold;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.primary-button {
+  font-size: 1rem;
+  background: var(--bg-green);
+  color: var(--text-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-decoration: none;
+  width: fit-content;
+  font-weight: bold;
+  box-shadow: 3px 2px 7px 0px rgb(0 0 0 / 25%);
+  border: none;
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  filter: brightness(0.8);
+}
+
+section#first {
+  background: url("../images/bg-top.jpg") center center/cover no-repeat;
+  /* height: 100vh; */
+}
+
+section#first {
+  padding-bottom: 50px;
+}
+
+section#first .content {
+  padding: 7rem 4rem 13rem;
+}
+
+section#first .content img {
+  margin-bottom: 1rem;
+}
+
+section#first .content h1 {
+  font-family: "Gosha", sans-serif;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  color: var(--text-dark-blue);
+  margin-bottom: 1rem;
+}
+
+section#first .content .paragraphs {
+  width: 85%;
+}
+
+section#first .content .paragraphs p {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+section#first .box .form {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10rem;
+}
+
+section#first .box .form .content {
+  background: #ffffff;
+  padding: 2rem;
+  width: 80%;
+  backdrop-filter: blur(20px);
+  box-shadow: 2px 2px 15px 7px rgb(0 0 1 / 22%);
+}
+
+section#first .box .form .content p {
+  color: #071e34;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.4;
+  width: 74%;
+  margin: 0 auto 2rem;
+}
+
+section#first .box .form .content form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+section#first .box .form .content input,
+section#first .box .form .content select {
+  height: 3rem;
+  padding-left: 1rem;
+  border: 1px solid var(--text-dark-blue);
+  color: #7c8894;
+}
+
+section#first .box .form .content input::placeholder {
+  color: var(--text-dark-blue);
+}
+
+section#first .box .form .content form label {
+  position: relative;
+  text-indent: 1.5rem;
+  cursor: pointer;
+  color: #071e34;
+}
+
+section#first .box .form .content form label input[type="checkbox"] {
+  position: absolute;
+  width: 15px;
+  border-radius: 0;
+  left: 0;
+  top: -0.8rem;
+  cursor: pointer;
+}
+
+section#first .box .form .content form button {
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+/* Second section */
+
+section#second {
+  background: var(--text-dark-blue) url("../images/bg-second-section.jpg")
+    bottom right/cover no-repeat;
+  padding: 4rem;
+}
+
+section#second .box .title {
+  font-size: 2.2rem;
+  color: var(--text-light-blue);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-family: "Gosha Bold", sans-serif;
+  max-width: 75%;
+}
+
+section#second .box .text {
+  color: var(--text-white);
+  font-size: 1.5rem;
+  line-height: 1.7;
+  max-width: 55%;
+}
+
+section#second .box .services {
+  margin-top: 2.5rem;
+  max-width: 55%;
+}
+
+section#second .box .services .item {
+  margin-bottom: 2.3rem;
+}
+
+section#second .box .services .item span {
+  font-size: 2rem;
+  font-family: "Gosha Bold", sans-serif;
+  color: var(--text-dark-blue);
+  background: var(--text-light-blue);
+  padding: 0.5rem;
+}
+
+section#second .box .services .item p {
+  font-size: 1.5rem;
+  color: var(--text-white);
+  line-height: 1.7;
+  margin: 1rem 0;
+}
+
+/* Third section */
+section#third {
+  background: url("../images/bg-third-section.jpg") center center/cover
+    no-repeat;
+}
+
+section#third .content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section#third .content .box {
+  width: 50%;
+  background: var(--text-dark-blue);
+  padding: 2rem 1.8rem;
+  margin: 4rem 0;
+}
+
+section#third .content .box .title {
+  font-family: "Gosha Bold", sans-serif;
+  font-size: 2.2rem;
+  color: var(--text-light-blue);
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+section#third .content .box ul {
+  list-style: none;
+}
+
+section#third .content .box ul li {
+  position: relative;
+  color: var(--text-white);
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+section#third .content .box ul li::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url("../images/arrow.svg") center center/contain no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Fourth section */
+section#fourth {
+  padding: 4rem 0;
+}
+
+section#fourth .content .primary-button {
+  margin: 0 auto;
+}
+
+section#fourth .content .title {
+  font-size: 2.2rem;
+  width: 45%;
+  margin: 0 auto;
+  font-family: "Gosha Bold";
+  margin-bottom: 3rem;
+  color: var(--text-dark-blue);
+  text-align: center;
+}
+
+section#fourth .content .partners {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+section#fourth .content .partners img {
+  margin: 0 2rem 2rem;
+  max-width: 150px;
+}
+
+/* Footer */
+footer {
+  padding: 4rem 0;
+  background: var(--text-dark-blue);
+  color: var(--text-white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+footer .content p.strong {
+  margin-bottom: 3rem;
+  font-family: "Gosha";
+}
+
+footer .content p {
+  font-size: 1.7rem;
+  line-height: 1.4;
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* Thaks page */
+section#thanks {
+  padding: 4rem 0 7rem;
+  background: url(../images/bg-tp.jpg) center center/cover no-repeat;
+  height: 100vh;
+}
+
+section#thanks .content {
+  width: 50%;
+}
+
+section#thanks .content img {
+  margin-bottom: 3rem;
+}
+
+section#thanks .content h1 {
+  width: 90%;
+  font-family: "Gosha Bold", sans-serif;
+  font-size: 3.4rem;
+  margin-bottom: 3rem;
+  color: var(--text-dark-blue);
+}
+
+section#thanks .content .text {
+  width: 67%;
+}
+
+section#thanks .content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  color: var(--text-dark-blue);
+}
+
+/* Responsives Sizes */
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  section#thanks {
+    height: 100vh !important;
+  }
+
+  section#first .content,
+  section#first .content .paragraphs {
+    width: 70% !important;
+  }
+
+  section#first .content,
+  section#first .content .paragraphs {
+    width: 100% !important;
+  }
+
+  section#first .box .form .content {
+    width: 80% !important;
+    margin-top: 0;
+  }
+
+  section#first {
+    padding-bottom: 50px;
+  }
+
+  body.obrigado section#thanks .content {
+    width: 100% !important;
+  }
+}
+
+/* Responsives Sizes */
+@media screen and (max-width: 1100px) {
+
+  html{
+    font-size: 85%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  section#first {
+    padding-bottom: 50px;
+  }
+
+  section#first .box .form {
+    margin-top: 0 !important;
+  }
+
+  section#first .content h1{
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    margin-bottom: 3rem;
+  }
+
+  section#first .box .form .content {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  section#first .content {
+    padding: 4rem 2rem;
+  }
+
+  section#first .content img {
+    margin-bottom: 3rem;
+  }
+
+  section#first .content,
+  section#first .content .paragraphs {
+    width: 100%;
+  }
+
+  /* Second section */
+  section#second {
+    background: var(--text-dark-blue);
+    padding: 4rem 2rem;
+  }
+
+  section#second .box .form .content {
+    width: 100%;
+  }
+
+  section#second .box .title {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  section#second .box .text,
+  section#second .box .services {
+    max-width: 100%;
+  }
+
+  .primary-button {
+    font-size: 16px;
+  }
+
+  /* Third section */
+  section#third .content .box {
+    width: 100%;
+  }
+
+  /* Fourth section */
+  section#fourth .content .title {
+    width: 90%;
+  }
+
+  section#fourth .content .partners {
+    justify-content: center;
+  }
+
+  section#fourth .content .partners img {
+    margin: 0 1rem 2rem;
+  }
+
+  /* Thaks page */
+
+  section#thanks {
+    padding: 2rem 0;
+    background-position: 68%;
+    height: inherit;
+  }
+  section#thanks .content {
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+
+  section#thanks .content .text,
+  section#thanks .content h1 {
+    width: 100%;
+  }
+
+  body.obrigado section#thanks{
+    background-position: 0;
+  }
+
+  body.obrigado section#thanks .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  section#first {
+    background: url("../images/bg-top-mobile.png") center center/cover no-repeat;
+    /* height: 100vh; */
+  }
+
+  section#thanks .content .text,
+  section#thanks .content h1 {
+    font-size: 2rem;
+  }
+
+  section#thanks .content img {
+    width: 100%;
+  }
+}

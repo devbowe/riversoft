@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="683.347" height="179.778" viewBox="0 0 683.347 179.778">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#04c1e3"/>
+      <stop offset="1" stop-color="#03f1dc"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_44" data-name="Grupo 44" transform="translate(-1279.178 -444.333)">
+    <g id="Grupo_36" data-name="Grupo 36">
+      <rect id="Retângulo_68" data-name="Retângulo 68" width="16.056" height="17.185" transform="translate(1699.655 606.926)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_69" data-name="Retângulo 69" width="61.389" height="17.185" transform="translate(1602.544 606.926)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_70" data-name="Retângulo 70" width="228.87" height="17.185" transform="translate(1731.655 606.926)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_71" data-name="Retângulo 71" width="109.482" height="17.185" transform="translate(1479.34 606.926)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_37" data-name="Grupo 37">
+      <rect id="Retângulo_72" data-name="Retângulo 72" width="117.806" height="15.481" transform="translate(1815.859 489.074)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_73" data-name="Retângulo 73" width="16.472" height="15.481" transform="translate(1783.859 489.074)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_74" data-name="Retângulo 74" width="62.694" height="15.481" transform="translate(1686.526 489.074)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_75" data-name="Retângulo 75" width="110.25" height="15.481" transform="translate(1562.97 489.074)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_76" data-name="Retângulo 76" width="16.028" height="15.481" transform="translate(1534.081 489.074)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_38" data-name="Grupo 38">
+      <rect id="Retângulo_77" data-name="Retângulo 77" width="60.472" height="15.481" transform="translate(1432.155 445.185)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_78" data-name="Retângulo 78" width="109.806" height="15.481" transform="translate(1308.155 445.185)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_79" data-name="Retângulo 79" width="16.028" height="15.481" transform="translate(1528.067 446.037)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_80" data-name="Retângulo 80" width="16.028" height="15.481" transform="translate(1279.178 446.037)" fill="url(#linear-gradient)"/>
+      <rect id="Retângulo_81" data-name="Retângulo 81" width="402.37" height="17.185" transform="translate(1560.155 444.333)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_39" data-name="Grupo 39">
+      <rect id="Retângulo_82" data-name="Retângulo 82" width="61.389" height="17.185" transform="translate(1809.387 545.148)" fill="url(#linear-gradient)"/>
+      <path id="Caminho_29" data-name="Caminho 29" d="M1369.414,562.333H1787.22V545.148l-417.806,1Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

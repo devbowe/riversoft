@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NC8KF98");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="A Riversoft oferece uma solução completa de transferência de arquivos para empresas que precisam enviar e receber arquivos com segurança."
+    />
+
+    <meta
+      property="og:description"
+      content="A Riversoft oferece uma solução completa de transferência de arquivos para empresas que precisam enviar e receber arquivos com segurança."
+    />
+    <meta
+      property="og:title"
+      content="Riversoft | Transferência de arquivos para empresas"
+    />
+    <meta
+      property="og:image"
+      content="https://hml.bowe.com.br/riversoft/solucao-transferencia-de-arquivos-stcp/assets/img/bnr-compartilhamento.png"
+    />
+
+    <!-- Title -->
+    <title>Riversoft | Transferência de arquivos para empresas</title>
+
+    <!-- Favicon -->
+    <link
+      href="./assets/img/favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link href="./assets/img/favicon.png" rel="apple-touch-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body id="transferencia-arquivos">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NC8KF98"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <a type="button" class="mb-btn-form primary-button" onclick="openForm()">
+      Fale com um especialista
+    </a>
+
+    <!-- Seção 1 -->
+    <section id="secao-1">
+      <div class="container">
+        <div class="row" id="contato">
+          <div class="box">
+            <img
+              src="./assets/img/logo.svg"
+              alt="Logo da Riversoft"
+              class="logo"
+            />
+            <h1>
+              Uma solução completa para transferência de arquivos com
+              simplicidade, agilidade e segurança
+            </h1>
+            <p>
+              A Riversoft oferece
+              <strong
+                >uma solução completa de transferência de arquivos para
+                empresas</strong
+              >
+              que precisam enviar e receber arquivos e integrar informações
+              entre diferentes sistemas todos os dias.
+            </p>
+            <p>
+              Com <strong>pagamento simplificado</strong> e
+              <strong>licenciamento flexível</strong>, temos
+              <strong>planos personalizados</strong> de suporte, manutenção,
+              instalação e treinamento incluso, de acordo com a necessidade do
+              seu negócio.
+            </p>
+            <p>
+              Uma ferramenta robusta, fácil de usar e em conformidade com a
+              LGPD,
+              <strong>para todo tipo de arquivo e todo tipo de empresa.</strong>
+            </p>
+          </div>
+
+          <div class="box">
+            <div class="form">
+              <button class="close-form" onclick="closeForm()">
+                <img src="./assets/img/close-button.svg" alt="imagem com x" />
+              </button>
+              <p>
+                Entre em contato e saiba mais sobre<br />
+                nossa solução de transferência de arquivos.
+              </p>
+              <form>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nome*"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="E-mail*"
+                  required
+                  email
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Telefone*"
+                  required
+                  minlength="14"
+                />
+                <select name="profissao" id="profissao" required>
+                  <option value="" selected>Cargo*</option>
+                  <option value="Sócio/Proprietário(a)">
+                    Sócio/Proprietário(a)
+                  </option>
+                  <option value="CEO/Presidente">CEO/Presidente</option>
+                  <option value="Diretor(a)">Diretor(a)</option>
+                  <option value="Gerente">Gerente</option>
+                  <option value="Coordenador(a)">Coordenador(a)</option>
+                  <option value="Administrador">Administrador</option>
+                  <option value="Estagiário(a)">Estagiário(a)</option>
+                  <option value="Analista">Analista</option>
+                  <option value="Outros">Outros</option>
+                </select>
+                <select
+                  style="display: none"
+                  name="origemcontatoselect"
+                  id="origemcontatoselect"
+                >
+                  <option value="Bowe" selected>Bowe</option>
+                </select>
+                <input
+                  type="hidden"
+                  name="origemcontato"
+                  id="origemcontato"
+                  value="Bowe"
+                />
+                <input
+                  style="display: none"
+                  type="text"
+                  name="cargoselecionado"
+                  id="cargoselecionado"
+                  required
+                />
+                <input
+                  type="text"
+                  name="company"
+                  id="company"
+                  placeholder="Empresa*"
+                  required
+                />
+                <input
+                  style="display: none"
+                  type="text"
+                  name="nomeempresa"
+                  id="nomeempresa"
+                  placeholder="Empresa*"
+                  required
+                />
+                <label for="acceptlgpd" id="box-termos">
+                  <input
+                    type="checkbox"
+                    name="acceptlgpd"
+                    id="acceptlgpd"
+                    required
+                  />
+                  Estou ciente e concordo que esses dados sejam utilizados para
+                  envio de ofertas e conteúdos personalizados de acordo com os
+                  meus interesses. A qualquer momento posso voltar atrás nessa
+                  decisão.*
+                </label>
+
+                <!-- UTM's -->
+                <input type="hidden" name="utm_source" id="utm_source" />
+                <input type="hidden" name="utm_medium" id="utm_medium" />
+                <input type="hidden" name="utm_campaign" id="utm_campaign" />
+                <input type="hidden" name="utm_term" id="utm_term" />
+                <input type="hidden" name="utm_content" id="utm_content" />
+
+                <button type="button" class="primary-button" id="cadastrar">
+                  Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section id="secao-2">
+      <div class="container">
+        <div class="row">
+          <div class="box">
+            <img
+              src="./assets/img/transfer-files.png"
+              alt="Imagem ilustrando transferência de arquivos entre computadores"
+            />
+          </div>
+          <div class="box">
+            <h3 class="primary-ff light-blue-txt">
+              Por que a Riversoft para a transferência de arquivos do seu
+              negócio?
+            </h3>
+            <p>
+              <strong>Fundada em 2004</strong>, a Riversoft é a desenvolvedora,
+              mantenedora e responsável pelo suporte de suas soluções, com
+              <strong
+                >vasta experiência em projetos de transferência de arquivos e
+                integração de informações</strong
+              >
+              para algumas das maiores empresas do Brasil.
+            </p>
+            <ul class="clientes">
+              <li>
+                <img src="./assets/img/accor-hotel.png" alt="Accor Hotels" />
+              </li>
+              <li><img src="./assets/img/azul.png" alt="Azul" /></li>
+              <li><img src="./assets/img/crefisa.png" alt="Crefisa" /></li>
+              <li><img src="./assets/img/edenred.png" alt="Edenred" /></li>
+              <li><img src="./assets/img/itau.png" alt="Itau" /></li>
+              <li>
+                <img
+                  src="./assets/img/seguradora-lider.png"
+                  alt="Lider Seguradoras"
+                />
+              </li>
+              <li><img src="./assets/img/sodexo.png" alt="Sodexo" /></li>
+              <li><img src="./assets/img/sky.png" alt="Sky" /></li>
+            </ul>
+            <p>
+              A <strong>expertise</strong> conquistada nesses
+              <strong>quase 20 anos de história</strong> faz da Riversoft uma
+              parceria confiável para empresas que buscam
+              <strong
+                >enviar e receber arquivos com segurança, escalabilidade, total
+                integração e controle</strong
+              >
+              de cada byte.
+            </p>
+            <a class="primary-button" href="#contato">Entre em contato</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <div class="box">
+            <h3>
+              Quais os diferenciais da transferência de arquivos com a
+              Riversoft?
+            </h3>
+            <p>
+              A solução de transferência de arquivos para empresas da Riversoft
+              oferece alta <strong>escalabilidade e flexibilidade</strong>, se
+              adequando às necessidades do seu negócio, com
+              <strong>suporte especializado</strong> sempre disponível para
+              atender sua empresa.
+            </p>
+            <p>
+              Com protocolos abertos para
+              <strong>mais liberdade de integração</strong>, no
+              <strong>modelo White label</strong>, nossa solução é ideal também
+              para terceirização.
+            </p>
+            <a class="primary-button" href="#contato"
+              >Fale com um especialista</a
+            >
+          </div>
+          <div class="box">
+            <div class="lista-diferenciais">
+              <ul>
+                <li>
+                  <span>&#9679;</span> Criptografia de ponta a ponta, do envio
+                  ao recebimento de arquivos
+                </li>
+                <li>
+                  <span>&#9679;</span> Conformidade com LGPD (Lei Geral de
+                  Proteção de Dados Pessoais)
+                </li>
+                <li>
+                  <span>&#9679;</span> Integração total com as principais
+                  soluções do mercado
+                </li>
+                <li>
+                  <span>&#9679;</span> Rastreabilidade de todos os arquivos e
+                  informações
+                </li>
+                <li>
+                  <span>&#9679;</span> Transferências ilimitadas sem cobranças
+                  extras
+                </li>
+                <li><span>&#9679;</span> Backup de arquivos automático</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="secao-3">
+      <div class="container">
+        <div class="row">
+          <h3>
+            Quais recursos oferecemos para a transferência de arquivos da sua
+            empresa?
+          </h3>
+          <div class="cartoes">
+            <div class="cartao">
+              <img
+                src="./assets/img/icone-assinautra-digital.svg"
+                alt="Ícone assinatura digital"
+              />
+              <h3>Assinatura digital</h3>
+              <p>
+                Envie e receba arquivos com a assinatura digital como camada
+                extra de segurança.
+              </p>
+            </div>
+            <div class="cartao">
+              <img
+                src="./assets/img/icone-criptografia.svg"
+                alt="Ícone criptografia"
+              />
+              <h3>Criptografia</h3>
+              <p>
+                Realize a transferência de arquivos com a tranquilidade da
+                criptografia.
+              </p>
+            </div>
+            <div class="cartao">
+              <img src="./assets/img/icone-gestao.svg" alt="Ícone gestão" />
+              <h3>Gestão</h3>
+              <p>
+                Faça a gestão de servidores e acompanhe transferências e
+                históricos.
+              </p>
+            </div>
+            <div class="cartao">
+              <img src="./assets/img/icone-controle.svg" alt="Ícone controle" />
+              <h3>Controle</h3>
+              <p>
+                Garanta entregas dentro do SLA controlando cada transferência.
+              </p>
+            </div>
+          </div>
+
+          <a class="primary-button" href="#contato">Solicite contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="secao-4">
+      <div class="container">
+        <div class="row">
+          <div class="box">
+            <h3>
+              Agilize, simplifique e aumente a segurança da transferência de
+              arquivos do seu negócio com a Riversoft
+            </h3>
+            <p>
+              Realize a transferência de arquivos do seu negócio com
+              <strong>uma empresa especializada e aprovada pelo mercado</strong>
+              no intercâmbio de arquivos, dados e informações entre diferentes
+              plataformas e organizações.
+            </p>
+            <p>
+              <strong
+                >Evite a interrupção de seus sistemas e atividades, simplifique
+                e automatize processos e aumente a segurança</strong
+              >
+              em todos os momentos da transferência de arquivos com a Riversoft.
+            </p>
+            <p>
+              <strong
+                >Preencha o formulário e aguarde o contato de um dos nossos
+                especialistas.</strong
+              >
+            </p>
+
+            <a href="#contato" class="primary-button">Agendar conversa</a>
+          </div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <img src="./assets/img/logo-branca.svg" alt="Logo da Riversoft" />
+        <p>
+          Fundada em 2004, a Riversoft é a desenvolvedora, mantenedora e
+          responsável pelo suporte de suas soluções. Ao longo de todos esses
+          anos, acumulamos vasta experiência em projetos de transferência de
+          arquivos com assinatura digital e integração de informações para
+          grandes empresas.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Popup Teste A -->
+    <div id="stickLayer" style="display: none">
+      <button type="button" class="close-modal-saida" onclick="$.stick_close()">
+        <img
+          src="./assets/img/close-button.svg"
+          alt="Ícone de xis para fechar o modal"
+        />
+      </button>
+      <div class="wrapper">
+        <div class="box">
+          <div class="text">
+            <h2>Antes de ir, garanta a segurança dos seus arquivos.</h2>
+            <p>
+              Preencha o formulário e fale com um especialista para simplificar
+              seus processos.
+            </p>
+            <a class="btn-cta-popup" href="#contato" onclick="$.stick_close()"
+              >Ok, quero saber mais</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INTEGRAÇÃO RD STATION -->
+    <script
+      type="text/javascript"
+      src="https://d335luupugsy2.cloudfront.net/js/integration/stable/rd-js-integration.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      async
+      src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/903af4c5-a850-4eb0-99ab-4526d54ea389-loader.js"
+    ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+      integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./assets/js/stick-to-me.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
